@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit 
 
 #Title must come pre-defined font size & type
 streamlit.title('My Parents New Healthy Diner')
