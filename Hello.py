@@ -10,9 +10,9 @@ from streamlit.logger import get_logger
 #       page_icon="👋",
 #   )
 
-    st.write("# Welcome to Streamlit 2.0!! 👋")
+#    st.write("# Welcome to Streamlit 2.0!! 👋")
 
-    st.sidebar.success("Select a demo above.")
+#    st.sidebar.success("Select a demo above.")
 
 streamlit.title('My Parents New Healthy Diner')
 
