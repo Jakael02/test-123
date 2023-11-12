@@ -30,6 +30,12 @@ option = st.selectbox(
 df
 
 
+# Add a selectbox to the sidebar:
+add_selectbox = st.sidebar.selectbox(
+    'How would you like to be contacted?',
+    ('Email', 'Home phone', 'Mobile phone')
+)
+
 #Line Chart with Random Numbers
 chart_data = pd.DataFrame(
      np.random.randn(20, 3),
