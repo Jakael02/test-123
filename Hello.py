@@ -17,6 +17,9 @@ streamlit.text('🐔 Hard-Boiled Free-Range Egg')
 
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
+file = st.file_uploader["Drop your CSV here to load to Snowflake"]
+
+
 
 #My first "Data Frame" with made up numbers
 df = pd.DataFrame({
