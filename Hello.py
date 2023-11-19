@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 
 st.markdown("# Main page 🎈")
-st.sidebar.markdown("# Main page 🎈")
+st.sidebar.markdown("# Main page 🎈✅ :anchor:")
 
 #Title must come pre-defined font size & type
 streamlit.title('My Parents New Healthy Diner')
