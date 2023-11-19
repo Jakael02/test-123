@@ -2,6 +2,7 @@ import streamlit
 import numpy as np
 import streamlit as st
 import pandas as pd
+streamlit run app.py
 import json
 from snowflake.snowpark import Session
 
@@ -19,8 +20,9 @@ streamlit.text('🐔 Hard-Boiled Free-Range Egg')
 
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
-file = st.file_uploader(
-    "Drop your CSV here to load to Snowflake",type={"csv"})
+# File Uploader is not working
+#file = st.file_uploader(
+#    "Drop your CSV here to load to Snowflake",type={"csv"})
 
 
 
